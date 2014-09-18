@@ -274,7 +274,7 @@
   (show-paren-mode))
 
 (with-package* parenface
-  (set-face-foreground 'paren-face "Gray30"))
+  (set-face-foreground 'parenface-paren-face "Gray30"))
 
 (with-package* (ido ido-ubiquitous ido-vertical-mode)
   (setq ido-enable-flex-matching t
